@@ -1,19 +1,28 @@
 import json
+import sys
 
 from irods.meta import iRODSMeta
  
 
-f = open ('projectinfo.json')
+projects_filename = "projectinfo.json"
+
+if len (sys.argv) > 0
+    projects_filename = sys.argv [1]
+
+projects_file = open (projects_filename)
 
 # Get the contents as a dictionary
-projects = json.load (f);
+projects = json.load (projects_file);
 
 for project in projects:
-    ParseProject (project)
+    print project
+    #ParseProject (project)
     
     
     
 def ParseProject (irods_path, project):
+    irods_path = project ["irods_path"]
+    
     irods_obj = session.data_objects.get (irods_path)    
 
     AddMetadataKeyAndValue (irods_obj, "license", "Toronto")
