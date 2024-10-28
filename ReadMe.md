@@ -32,6 +32,6 @@ options:
   -p PASSWORD, --password PASSWORD
                         The password to use to log in to the iRODS server
   -z ZONE, --zone ZONE  The iRODS zone to connect to
-  --uuids [UUIDS ...]   The Project UUIDS to parse
+  --uuids [UUIDS ...]   The Project UUIDS to parse. If this is not set, all projects in the file will be parsed.
   -v, --verbose         Display progress messages
 ```

@@ -97,7 +97,7 @@ def GetCommandLineArgs (parser):
 	parser.add_argument ("-u", "--user", help = "The username to use to log in to the iRODS server")
 	parser.add_argument ("-p", "--password", help = "The password to use to log in to the iRODS server")
 	parser.add_argument ("-z", "--zone", help = "The iRODS zone to connect to")
-	parser.add_argument ("--uuids", nargs="*", help = "The Project UUIDS to parse")
+	parser.add_argument ("--uuids", nargs="*", help = "The Project UUIDS to parse. If this is not set, all projects in the file will be parsed.")
 	parser.add_argument ("-v", "--verbose", help = "Display progress messages", action = "store_true")
 
 	args = parser.parse_args ()
