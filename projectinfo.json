@@ -1,0 +1,857 @@
+[
+	{
+		"uuid": "16c2a429-d05d-4658-b5c2-0ece632e9e2c",
+		"authors": [
+			"Jonathan Wright",
+			"Gemy Kaithakottil",
+			"Rachel Rusholme-Pilcher",
+			"Thomas Lux",
+			"Fiona Fraser",
+			"Leah Catchpole",
+			"Naomi Irish",
+			"Vanda Knitlhoffer",
+			"Alex Durrant",
+			"Heidrun Gundlach",
+			"Tom Barker",
+			"Chris Watkins",
+			"Karim Gharbi",
+			"Manuel Spannagl",
+			"David Swarbeck",
+			"Anthony Hall"
+		],
+		"projectName": "Paragon long read assembly",
+		"description": "<p> A genome assembly and annotation of the UK elite hexaploid wheat line Paragon. This assembly was generated using PacBio HiFi and ultra-long ONT reads then scaffolded into chromosomes using Omni-C. Annotation was performed using REAT. It is being released prior to publication to DSW members. </p> <p>The latest version is v3 which contains the following changes compared to v2; </p> <ul><li> Chromosomes 1A, 2A, 2B, 3B, 4A, 5A, and 6D have been reverse complemented, and the annotation for these chromosomes has been updated to match the chromosome orientation of CS42.  </li> <li> Some unanchored scaffolds identified as contamination have been removed. </li> </ul> ",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1",
+			"BBX011003/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Hall_2023-08-08_Taes_paragon/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Hall_2023-08-08_Taes_paragon",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "03d55fc9-92a6-4e31-ab0b-46dc21a4a82f",
+		"authors": [
+			"John Connell",
+			"Lawrence Percival-Alwyn",
+			"Tally I. C. Wright",
+			"Philip Howell"
+		],
+		"projectName": "Sequence variants for key tetraploid wheat components within NIAB DFW germplasm",
+		"description": "Sequence variants for wild emmer accession 'TTD-140' (donor for NIAB_AB_CSSL lines) and durum wheat 'Hoh-501' (most commonly used tetraploid component of NIAB Synthetic Hexaploid Wheat lines). This work was supported by the BBSRC through the Cross-Institute Strategic Program 'Designing Future Wheat' (BB/P016855/1) and the Bioinformatics and Biological Resources Fund research grant 'Ensembl Plant Populations' (BB/X018725/1). More information about the methodology used can be found on https://niab.github.io/niab-dfw-wp3/jekyll/update/2024/05/31/Sequence-variants-for-key-tetraploid-wheat-components-within-NIAB-DFW-germplasm.html.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1",
+			"BB/X018725/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Howell_2024_05_17_Tetraploid_sequencing/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Howell_2024_05_17_Tetraploid_sequencing",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "90f70e4c-8ca2-4285-95ed-3821b833b1ce",
+		"authors": [
+			"Jonathan Wright",
+			"Gemy Kaithakottil",
+			"Rachel Rusholme-Pilcher",
+			"Thomas Lux",
+			"Fiona Fraser",
+			"Leah Catchpole",
+			"Naomi Irish",
+			"Vanda Knitlhoffer",
+			"Alex Durrant",
+			"Heidrun Gundlach",
+			"Tom Barker",
+			"Chris Watkins",
+			"Karim Gharbi",
+			"Manuel Spannagl",
+			"David Swarbeck",
+			"Anthony Hall"
+		],
+		"projectName": "Paragon long read assembly",
+		"description": "A genome assembly of the UK elite hexaploid wheat line ‘Paragon’. This assembly was generated using HiFi and ONT reads and scaffolded into chromosomes using HiC. It is being released prior to publication to DSW members under the Toronto agreement.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1",
+			"BBX011003/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Hall_2023-08-08_Taes_paragon_v2/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Hall_2023-08-08_Taes_paragon_v2",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "1e38d2c3-9168-4769-a389-b7f29542ad82",
+		"authors": [
+			"Benjamen White",
+			"Thomas Lux",
+			"Rachel Rusholme-Pilcher",
+			"Angela Juhasz",
+			"Gemy Kaithakottil",
+			"Susan Duncan",
+			"James Simmonds",
+			"Hannah Rees",
+			"Jonathan Wright",
+			"Josh Colmer",
+			"Sabrina Ward",
+			"Ryan Joynson",
+			"Benedict Coombes",
+			"Naomi Irish",
+			"Suzanne Henderson",
+			"Tom Barker",
+			"Helen Chapman",
+			"Leah Catchpole",
+			"Karim Gharbi",
+			"Kentaro Shimizu",
+			"Heidrun Gundlach",
+			"Daniel Lang",
+			"Guy Naamati",
+			"Wilfried Haerty",
+			"Cristobal Uauy",
+			"David Swarbreck",
+			"Philippa Borrill",
+			"Klaus F.X. Mayer",
+			"Curtis Pozniak",
+			"10+ Wheat Genome Project Consortium",
+			"Manuel Spannagl",
+			"Anthony Hall"
+		],
+		"projectName": "De novo annotation and pan-transcriptome analysis of multiple wheat genomes",
+		"description": "De novo annotation of 9 wheat cultivars (ARI, JAG, JUL, LAN, LER, MAC, MAT, NOR, STA) and pan-transcriptome analysis of these and an additional 5 UK wheat cultivars (CAD, CLA, PAR, ROB, WEE).",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1",
+			"BBX011003/1",
+			"BBX011089/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Hall_2024-01-01_wheat_pantranscriptome/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Hall_2024-01-01_wheat_pantranscriptome",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "ef2d738e-a738-4b83-b293-0c217ab4c2fd",
+		"authors": [
+			"Shifeng Cheng",
+			"Cong Feng",
+			"Luzie U. Wingen",
+			"Hong Cheng",
+			"Andrew B. Riche",
+			"Mei Jiang",
+			"Michelle Leverington-Waite",
+			"Zejian Huang",
+			"Sarah Collier",
+			"Simon Orford",
+			"Xiaoming Wang",
+			"Rajani Awal",
+			"Gary Barker",
+			"Tom O'Hara",
+			"Clare Lister",
+			"Ajay Siluveru",
+			"Jesus Quiroz-Chavez",
+			"Ricardo H. Ramirez-Gonzalez",
+			"Ruth Bryant",
+			"Simon Berry",
+			"Urmil Bansal",
+			"Harbans S. Bariana",
+			"Malcolm J. Bennett",
+			"Breno Bicego",
+			"Lorelei Bilham",
+			"James K.M. Brown",
+			"Amanda Burridge",
+			"Chris Burt",
+			"Milika Buurman",
+			"March Castle",
+			"Laetitia Chartrain",
+			"Baizhi Chen",
+			"Ahmed F. Elkot",
+			"Paul Fenwick",
+			"David Feuerhelm",
+			"John Foulkes",
+			"Oorbessy Gaju",
+			"Adam Gauley",
+			"Kumar Gaurav",
+			"Amber N. Hafeez",
+			"Ruirui Han",
+			"Richard Horler",
+			"Junliang Hou",
+			"Muhammad S. Iqbal",
+			"Matthew Kerton",
+			"Sisay A. Kidane",
+			"Ankica Kondic-Spica",
+			"Ania Kowalski",
+			"Jacob Lage",
+			"Xiaolong Li",
+			"Hongbing Liu",
+			"Shiyan Liu",
+			"Alison Lovegrove",
+			"Lingling Ma",
+			"Cathy Mumford",
+			"Saroj Parmar",
+			"Charlie Philp",
+			"Darryl Playford",
+			"Alexandra M. Przewieslik-Allen",
+			"Zareen Sarfraz",
+			"David Schafer",
+			"Peter R. Shewry",
+			"Yan Shi",
+			"Gustavo Slafer",
+			"Baoxing Song",
+			"Bo Song",
+			"David Steele",
+			"Burkhard Steuernagel",
+			"Phillip Tailby",
+			"Simon Tyrrell",
+			"Abdul Waheed",
+			"Mercy N. Wamalwa",
+			"Xingwei Wang",
+			"Yanping Wei",
+			"Mark Winfield",
+			"Shishi Wu",
+			"Yubing Wu",
+			"Brande B.H. Wulff",
+			"Wenfei Xian",
+			"Yawen Xu",
+			"Yunfeng Xu",
+			"Quan Yuan",
+			"Xin Zhang",
+			"Keith J. Edwards",
+			"Laura Dixon",
+			"Paul Nicholson",
+			"Noam Chayut",
+			"Malcolm J. Hawkesford",
+			"Cristobal Uauy",
+			"Dale Sanders",
+			"Sanwen Huang",
+			"Simon Griffiths"
+		],
+		"projectName": "Variation data for WatSeq",
+		"description": "Breeding crops that are resilient to climate change and help to ensure food security is an urgent priority. We define genetic and phenotypic diversity of the A.E. Watkins landrace collection of bread wheat (Triticum aestivum), a major global cereal, through whole genome re-sequencing (827 Watkins landraces and 208 modern cultivars) and in-depth field evaluation spanning a decade. We include VCF files for the complete dataset against the Chinese Spring RefSeqv1.0 wheat genome assembly, as well as variations, haplotypes and minimum landrace paths for modern cultivars using IBSpy.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"2019ZT08N628",
+			"32022006",
+			"CAAS-ASTIP-2021-AGIS-ZDRW202101",
+			"AGIS-ZDKY202002",
+			"2020A1515110677",
+			"BB/I002545/1",
+			"BB/J004596/1",
+			"BB/P016855/1",
+			"BB/X011003/1",
+			"CH0106",
+			"CH0109",
+			"ERC-2019-COG-866328",
+			"2018-000009-01EXTF-00306"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/WatSeq_2023-09-15_landrace_modern_Variation_Data/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/WatSeq_2023-09-15_landrace_modern_Variation_Data",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "A80497fd-5371-4566-99e4-1454516b10b1",
+		"authors": [
+			"Benedict Coombes",
+			"Surbhi Grewal",
+			"Julie King",
+			"Stella Hubbart-Edwards",
+			"Cai-yun Yang",
+			"Ian P King",
+			"Anthony Hall"
+		],
+		"projectName": "Whole genome sequencing of wheat wild relatives",
+		"description": "Whole genome sequencing of 8 wild relatives of wheat, with a total of 17 accessions. This was generated to facilitate the characterisation of sets of wild relative introgression lines produced by the BBSRC Wheat Research Centre at the University of Nottingham.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/CCG1720/1",
+			"BB/P016855/1",
+			"BB/J004596/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Hall_2022-11-22_wheat_wild_relatives/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Hall_2022-11-22_wheat_wild_relatives",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "9bdde1fa-3eb1-4845-b858-9fe17a379f4c",
+		"authors": [
+			"Hanin Ibrahim Ahmed",
+			"Jesus Quiroz-Chavez",
+			"Ricardo H. Ramirez-Gonzalez",
+			"Cristobal Uauy",
+			"Simon G. Krattinger"
+		],
+		"projectName": "IBSpy analysis to detect Triticum monococcum introgressions into domesticated hexaploid wheat",
+		"description": "This dataset was used in the manuscript Einkorn genomics sheds light on evolutionary history of the oldest domesticated wheat. We implemented the Identity-by-State python (IBSpy: https://github.com/Uauy-Lab/IBSpy) pipeline and used it to identify T. monococcum introgressions in the ten hexaploid wheat pangenome cultivars. We used IBSpy and k-mer databases from multiple genotypes, including the Illumina raw data (~10-fold) of 218 T. monococcum accessions, two T. monococcum chromosome-scale assemblies, and ten genome assemblies of wheat (Walkowiak et al., 2020). We counted variations using 50-kbp windows. For details about how IBSpy detects variations, please, read the documentation. To estimate the variations cut-off and sequence identity to detect T. monococcum introgressions, we compared the published pairwise MUMmer alignments (Brinton et al., 2020) of the ten pangenome cultivars (ArinaLrFor, Chinese Spring, Jagger, Julius, LongReach Lancer, CDC Landmark, Mace, Norin 61, Stanley, SY_Mattis) and the two T. monococcum assemblies generated here (TA299 and TA10622) with the corresponding variations counts from IBSpy. In total, there were 110 pairwise alignments analyzed, and we focused on the seven A genome chromosomes.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"CT509E12M",
+			"CDFW2E12A"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Uauy_2022-09-24_IBSpy_Triticum_monococcum_introgressions/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Uauy_2022-09-24_IBSpy_Triticum_monococcum_introgressions",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "8da600b7-ffbd-4c1d-8278-8b9ef129e3a3",
+		"authors": [
+			"Anil Thanki",
+			"Wilfried Haerty"
+		],
+		"projectName": "Wheat lncRNAs",
+		"description": "Denovo annotation of novel intergenic lncRNAs in wheat cultivars.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"GG403G01A"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Thanki_2022_wheat_lncRNAs/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Thanki_2022_wheat_lncRNAs",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "3973cc2d-924c-4e6d-9a2c-7acdb8b05a3f",
+		"authors": [
+			"Ryan Joynson",
+			"Gemma Molero",
+			"Benedict Coombes",
+			"Laura-Jayne Gardiner",
+			"Carolina Rivera-Amado",
+			"Francisco J. Pinera-Chavez",
+			"Francisco Pinto",
+			"John R. Evans",
+			"Robert T. Furbank",
+			"Matthew P. Reynolds",
+			"Anthony Hall"
+		],
+		"projectName": "Genotype data for HiBAP I and HiBAP II, spring wheat association mapping panels developed at CIMMYT",
+		"description": "VCF files and hapmap files for HiBAP I and HiBAP II. This data has been used for two genome-wide association studies to date: for photosynthetic efficiency and for heat tolerance. Variants were called from enrichment capture sequencing data mapped to RefSeq v1.0. Details of how the data was processed can be found in Joynson et al., 2021 (https://doi.org/10.1111/pbi.13568).",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/N020871/1",
+			"BB/P016855/1",
+			"BBS/E/T/000PR9816",
+			"BBS/E/T/000PR9814",
+			"BBS/E/T/000PR9783",
+			"DFs-19-0000000013",
+			"BB/CSP1720/1",
+			"BB/M011216/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Hall_2022-04-08_HiBAP_genotyping/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Hall_2022-04-08_HiBAP_genotyping",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "21e4a566-070b-4a80-bc93-68a798a50ac4",
+		"authors": [
+			"Julie King",
+			" Surbhi Grewal",
+			" Manel Othmeni",
+			"Benedict Coombes",
+			"Cai-yun Yang",
+			"Nicola Walters",
+			"Stephen Ashling",
+			"Duncan Scholefield",
+			"Jack Walker",
+			"Stella Hubbart-Edwards",
+			"Anthony Hall",
+			"Ian King"
+		],
+		"projectName": "Introgression of the Triticum timopheevii genome into wheat detected by chromosome-specific KASP markers",
+		"description": "Triticum timopheevii (2n=28, AAGG) is a tetraploid wild relative species with great potential to increase the genetic diversity of hexaploid wheat Triticum aestivum (2n=42, AABBDD) for various important agronomic traits. A breeding scheme that propagated advanced backcrossed populations of wheat-T. timopheevii introgression lines through further backcrossing and self-fertilisation resulted in the generation of 99 introgression lines (ILs) that carried 309 homozygous segments from the A and G subgenomes of T. timopheevii. These homozygous introgressions were detected through the development of a set of 480 chromosome-specific Kompetitive allele specific PCR (KASP) markers that are well-distributed across the wheat genome. Of these, 149 were developed in this study based on single nucleotide polymorphisms (SNPs) discovered through whole genome sequencing of T. timopheevii. Together these homozygous wheat-T. timopheevii ILs and chromosome-specific KASP markers provide an invaluable resource to wheat breeders for trait discovery to combat biotic and abiotic stress factors brought upon wheat production due to climate change.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/J004596/1",
+			"BB/P016855/1",
+			"BB/M011216/1",
+			"BBS/E/T/000PR9816",
+			"BB/CCG1720/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/King_2022-04-08_Triticumtimopheevii/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/King_2022-04-08_Triticumtimopheevii",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "07d36151-c209-477f-9e55-d1b11becfb8c",
+		"authors": [
+			"Marina Millan-Blanquez",
+			"Matthew Hartley",
+			"Nicholas Bird",
+			"Yann Manes",
+			"Cristobal Uauy",
+			"Scott Boden"
+		],
+		"projectName": "A scalable phenotyping approach for female floral organ development and senescence in the absence of pollination in wheat",
+		"description": "New automated phenotyping method for stigma and ovary development in wheat which highlights the potential for genetic variation that could benefit hybrid breeding. The work was supported by the UK Biotechnology and Biological Sciences Research Council (BBSRC) through the Designing Future Wheat (BB/P016855/1) and Genes in the Environment (BB/P013511/1) Institute Strategic Programmes. Additional funding was provided by the European Research Council (ERC-2019-COG-866328). Marina Millan Blanquez was supported by a BBSRC Norwich Research Park Biosciences Doctoral Training Grant (BB/M011216/1).",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P013511/1",
+			"BB/P016855/1",
+			"ERC-2019-COG-866328",
+			"BB/M011216/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Millan-Blanquez_etal_2022_machine-learning-carpel-traits/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Millan-Blanquez_etal_2022_machine-learning-carpel-traits",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "ffc3e90f-7f89-4934-8e35-943bb64d1789",
+		"authors": [
+			"Anthony Hall",
+			"Laura-Jayne Gardiner"
+		],
+		"projectName": "Integrating genomic resources to present full gene and promoter capture probe sets for bread wheat",
+		"description": "Whole genome shotgun re-sequencing of wheat is expensive because of its large, repetitive genome. Moreover, sequence data can fail to map uniquely to the reference genome making it difficult to unambiguously assign variation. Re-sequencing using target capture enables sequencing of large numbers of individuals at high coverage to reliably identify variants associated with important agronomic traits. We present two gold standard capture probe sets for hexaploid bread wheat, a gene and a promoter capture, which are designed using recently developed genome sequence and annotation resources. The captures can be combined or used independently. The capture probe sets effectively enrich the high confidence genes and promoters that were identified in the genome alongside a large proportion of the low confidence genes and promoters. We use a capture design employing an 'island strategy' to enable analysis of the large gene/promoter space of wheat with only 2x160 Mb NimbelGen probe sets. Furthermore, these assays extend the regions of the wheat genome that are amenable to analyses beyond its exome, providing tools for detailed characterization of these regulatory regions in large populations. Here, we release the targeted sequence of the capture probe sets on the wheat RefSeqv1, the design space that was used to tile our capture probes across and finally the positions of the probes themselves across this design space for both the gene and promoter capture probe sets. This project was supported by the BBSRC via an ERA-CAPS grant BB/N005104/1, BB/N005155/1 and BBSRC Designing Future Wheat BB/P016855/1.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/N005104/1",
+			"BB/N005155/1",
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Gardiner_2018-07-04_Wheat-gene-promoter-capture/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Gardiner_2018-07-04_Wheat-gene-promoter-capture",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "fd22c6a9-5692-4bbd-bb77-e04567fe3bc0",
+		"authors": [
+			"Ji Zhou",
+			"Joshua Ball"
+		],
+		"projectName": "DFW RobigusxClaire UAV Image Data",
+		"description": "Working with the Griffiths group at JIC we have collected UAV image data for the RobigusxClaire population across the 2019 season. Divided into early, mid, and late drilling dates. Raw images from UAV capture are pre-processed using Pix4DMapper software to create a large, high-detail, orthomosaic images providing a single image for analysis and extraction of wheat traits for QTL analysis. Single whole field images are also captured to account for light and colour variations, This project is supported by the BBSRC Designing Future Wheat grant sub-work package BBS/E/T/000PR9785",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BBS/E/T/000PR9785"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Zhou_2019_RobxCla_UAV_Image_Data/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Zhou_2019_RobxCla_UAV_Image_Data",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "4c53dd08-39d6-4d3a-bfc0-c6a5f32b609f",
+		"authors": [
+			"Azahara Carmen Martín",
+			"AbdulKader Alabdullah",
+			"Philippa Borrill",
+			"Ricardo H. Ramírez-González",
+			"Janet Higgins",
+			"David Swarbreck",
+			"Cristobal Uauy",
+			"Peter Shaw",
+			"Graham Moore"
+		],
+		"projectName": "Meiosis transcriptome and co-expression network in hexaploid wheat",
+		"description": "Despite its large genome size, high DNA repetitive content and similarity between homoeologous chromosomes, hexaploid wheat completes meiosis in a shorter period than diploid species with a much smaller genome. Therefore, during wheat meiosis, mechanisms additional to the classical model based on DNA sequence homology, must facilitate more efficient homologous recognition. One such mechanism could involve exploitation of differences in chromosome structure between homologs and homoeologs at the onset of meiosis. In turn, these chromatin changes can be expected to be linked to transcriptional gene activity. In this study, we present an extensive analysis of a large RNA-seq data derived from 6 different genotypes: wheat, wheat-rye hybrids and newly synthesized octoploid triticale, both in the presence and absence of the Ph1 locus. Plant material was collected at early prophase, at the transition leptotene-zygotene, when the six genotypes exhibit different levels of synapsis and chromatin structure. Unexpectedly, our study reveals that neither synapsis, whole genome duplication nor the absence of the Ph1 locus are associated with major changes in gene expression levels during early meiotic prophase. Overall wheat transcription at this meiotic stage is therefore highly resilient to such alterations, even in the presence of major chromatin structural changes. Our knowledge of the genes involved in meiosis in many crop species such as wheat is largely based on studies on model species. Here we used the WGCNA package in R to build a meiotic gene co-expression network in wheat based on 130 wheat RNA-seq samples collected from a range of tissues including meiotic anthers. A set of 50,387 genes were expressed during meiosis and assigned to 66 modules according to their expression patterns. Three of the modules (modules 2, 28 and 41 containing 4940 genes, 544 genes and 313 genes, respectively) were significantly correlated with meiotic tissue samples but not with any other type of tissue. The three meiosis-related modules were highly enriched with GO terms related to cell cycle, DNA replication, chromatin modifications and other processes occurring during meiosis. Wheat orthologs of meiosis genes were found in modules 2, 28 and 41. Module 2, in particular, was significantly enriched possessing 166 meiosis orthologs. The combination of co-expression network analysis in tandem with orthologue information will contribute to enhance wheat meiotic studies, which will lead to better understanding of the regulation of meiosis in wheat (and other polyploid plants) and subsequently improve wheat production. Project Code: BB/J007188/1.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/J007188/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Martin_etal_2018_Alabdullah_etal_2019_wheat_meiosis_transcriptome_and_co-expression_network/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Martin_etal_2018_Alabdullah_etal_2019_wheat_meiosis_transcriptome_and_co-expression_network",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "844c0d71-5288-4f85-ae66-cc7d66596ab1",
+		"authors": [
+			"Brande Wulff",
+			"Burkhard Steuernagel"
+		],
+		"projectName": "Aegilops tauschii diversity panel",
+		"description": "This is the raw data from whole genome shotgun sequencing of 150 accessions of Aegilops tauschii, a wild relative of wheat. This data was generated by the open wild wheat consortium. Financial support for this project includes (but is not excluded to) the BBSRC (Designing Future Wheat BB/P016855/1), KWS, Syngenta, Bayer and Limagrain. In kind support was received from CLC Bio, Novogene and 2Blades.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Wulff_2018-01-31_OWWC/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Wulff_2018-01-31_OWWC",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "1e949203-127e-4d5d-8738-fa1e98fb4b82",
+		"authors": [
+			"Ricardo Ramirez-Gonzalez",
+			"Philippa Borrill",
+			"Cristobal Uauy"
+		],
+		"projectName": "The transcriptional landscape of hexaploid wheat across tissues, cultivars, and stress conditions",
+		"description": "The coordinated expression of highly related homoeologous genes in polyploid species underlies the phenotypes of many of the world?s major crops. However, the balance of homoeolog expression across diverse tissues, stress conditions, and cultivars remains poorly understood. Here we combine extensive gene expression datasets with the fully annotated genome sequence to produce a comprehensive, genome-wide analysis of homoeolog expression patterns in hexaploid bread wheat. Bias in homoeolog expression varied between tissues, with ~30% of wheat homoeologs showing unbalanced expression. We found expression asymmetries along wheat chromosomes, with genes showing the largest inter-tissue, inter-cultivar, and coding sequence variation most often located in the high-recombination distal ends of chromosomes. These transcriptionally dynamic genes potentially represent the first steps towards neo/sub- functionalization of wheat homoeologs. Co-expression networks revealed extensive coordination of homoeologs throughout development and, alongside a detailed expression atlas, provide a framework to target candidate genes underpinning agronomic traits in polyploid wheat. Project Code: BB/P016855/1",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Ramirez-Gonzalez_etal_2018-06025-Transcriptome-Landscape/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Ramirez-Gonzalez_etal_2018-06025-Transcriptome-Landscape",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "5dd4fd26-56f7-4ae6-a046-70969f084ce8",
+		"authors": [
+			"Anthony Hall",
+			"Laura-Jayne Gardiner"
+		],
+		"projectName": "Using 12Mb capture to profile the Watkins bread wheat landrace diversity collection",
+		"description": "Wheat has been domesticated into a large number of agricultural environments and has a remarkable ability to adapt to diverse environments. To understand this process, we survey genotype and DNA methylation across the Watkins bread wheat landrace collection, representing global genetic diversity. For each accession, we use gene based sequence capture (12Mb) to focus on the functionally relevant portion of the genome, followed by paired end sequencing on the Hiseq4000. All Watkins accessions therefore have genotypic data available plus sequence data generated after bisulfite treatment to allow methylation calls. This project was supported by the BBSRC via an ERA-CAPS grant BB/N005104/1, BB/N005155/1 and BBSRC Designing Future Wheat BB/P016855/1.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/N005104/1",
+			"BB/N005155/1",
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Gardiner_2018-01-29_Watkins-diversity-12Mb/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Gardiner_2018-01-29_Watkins-diversity-12Mb",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "c0d214a8-f09e-4f15-bcd2-f33e023a159b",
+		"authors": [
+			"Luzie U. Wingen",
+			"Simon Orford",
+			"Michelle Leverington-Waite",
+			"Sarah Collier",
+			"Rajani Awal",
+			"Simon Griffiths"
+		],
+		"projectName": "DFW-WP3: Germplasm Development for Trait Dissection - Initial QTL Validation",
+		"description": "Phenotype data for QTL beneficial allele validation using Near Isogenic Lines (NILs) from growing season Oct 2017 - Aug 2018 at Church Farm, John Innes Centre, Norwich, UK, for the traits: heading time, plant height and  grain yield. Phenotype data was collected for 189 NILs of the DFW-TK-Landrace-NIL-Set2, which were developed from six landrace parents (Watkins 1190034, Watkins 1190141, Watkins 1190292, Watkins 1190352, Watkins 1190468, Watkins 1190729) and cultivar 'Paragon'. The introgressed 37 QTL, present show association with one of the following traits: above ground dry mass, anthesis date, grain fill, grain yield, height, lodging, maturity mildew score, NDRE, NDVI, and straw yield. Furthermore, phenotype data for two DFW-TK-Mutation-NILs,  from a mutation screen for gw2-A, and for the control cultivars 'Paragon' and 'Soisson' was also collected. The DFW Wheat Toolkit (TK) contains sets of pre-breeding germplasm lines, developed by Work Package 3 of the Designing Future Wheat (DFW) Institute Strategic Programme (https://designingfuturewheat.org.uk/work-package-3/) and includes NILs or equivalent material from different wheat diversity sources, e.g. landraces, mutation screening, ancient wheat relatives and new synthetic wheats. DFW TK lines  are assessed for traits of interest within the DFW programme. Genotype data, for SNPs on the 35k Axiom Wheat Genotyping Breeders' Array, is available from CerealsDB.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Griffiths_2018-10-22_DFW-TK-NIL-Set2-2018-phenotypes/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Griffiths_2018-10-22_DFW-TK-NIL-Set2-2018-phenotypes",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "1f0ed4e0-be12-49b1-a65e-cab36a449f95",
+		"authors": [
+			"Malcolm Hawkesford",
+			"Andrew Riche"
+		],
+		"projectName": "DFW Academic Toolkit Harvest 2020",
+		"description": "Within Workpackage 3 of Designing Future Wheat, there is an Academic Toolkit field experiment each year, which provides information for selecting a subset of lines to constitute the Breeders toolkit, which is grown the following year by the UK wheat breeding community. An image was taken of each plot, post anthesis, to show what the lines look like, and give an idea of purity.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Riche_2020-07-13_DFW_Academic_Toolkit_Harvest_2020/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Riche_2020-07-13_DFW_Academic_Toolkit_Harvest_2020",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "4ee31da4-ba8e-43f4-b6ff-ed3672873bf8",
+		"authors": [
+			"Jemima Brinton",
+			"Cristobal Uauy"
+		],
+		"projectName": "Read alignment and SNP calling performed by Jemima Brinton",
+		"description": "Data description: SNP calls against IWGSC Chinese Spring RefSeq v1.0 chromosome parts from exome capture data of 103 accessions of the Watkins landrace collection. Raw reads generated by and published in \"Hidden variation in polyploid wheat drives local adaptation\" by Gardiner et al, Gigascience, 2017 (doi: 10.1101/gr.233551.117).",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Gardiner_et_al_2017_Watkins_exome_capture_SNP_calls_VCF/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Gardiner_et_al_2017_Watkins_exome_capture_SNP_calls_VCF",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "1281b5a5-f96f-43f6-b66c-0a5cea82904d",
+		"authors": [
+			"Anthony Hall"
+		],
+		"projectName": "Wheat Pantranscriptome",
+		"description": "We have performed de novo annotation on 10 chromosome pseudomolecule and five scaffold, previously reported, assemblies of elite hexaploid wheat cultivars from UK and across the globe. Details of the assemblies we annotated can be found in our previous publication here: https://doi.org/10.1038/s41586-020-2961-x. These de novo annotations were generated using PacBio Iso-Seq and Illumina short paired-end read sequencing of samples from grain, root, spike, flag leaf and three-leaf stage seedlings sampled at dusk and dawn; from each cultivar. We are performing differential expression and network level analysis of these samples to find intra and inter cultivar PAV and ePAV, extending this also to their respective haplotype blocks as a potential predictive measure of gene expression. These data sets and annotations we are releasing pre-publication under the Toronto agreement, will form an important resource for UK and international wheat breeders and communities. Further capturing the diversity of wheat beyond a single reference genome and supporting the discovery genes and markers underpinning key traits.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/2021-15-21_wheat_pantranscriptome/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/2021-15-21_wheat_pantranscriptome",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "7548b642-b060-4b89-9854-e48cbbe0987f",
+		"authors": [
+			"Jon Wright",
+			"Bernardo Clavijo"
+		],
+		"projectName": "Triticeae Genomics For Sustainable Agriculture",
+		"description": "Genome assemblies of the hexaploid UK wheat lines Cadenza, Claire, Paragon and Robigus and the tetraploid wheat line Kronos. Illumina paired-end and mate-pair reads were generated and assembled using the w2rap pipeline (see http://dx.doi.org/10.1101/gr.217117.116 for further details)",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/J003557/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Clavijo_2017-04-25_Wheat-LoLa/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Clavijo_2017-04-25_Wheat-LoLa",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "ff193317-2b6a-4e82-a0bf-3ec00d26229c",
+		"authors": [
+			"Brande Wulff"
+		],
+		"projectName": "",
+		"description": "",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Wulff_2019-03-13_OWWC_lineage1/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Wulff_2019-03-13_OWWC_lineage1",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "db66c845-a544-4e55-862f-6e8b690dc7b0",
+		"authors": [
+			""
+		],
+		"projectName": "",
+		"description": "",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [
+			"BB/P016855/1"
+		],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Brinton_etal_2020-05-20-Haplotypes-for-wheat-breeding/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Brinton_etal_2020-05-20-Haplotypes-for-wheat-breeding",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "c482ac55-7075-47d9-8f37-cc6d395e18ad",
+		"authors": [
+			"Surbhi Grewal",
+			"Ryan Joynson",
+			"Benedict Coombes",
+			"Anthony Hall",
+			"John Fellers",
+			"Cai-yun Yang",
+			"Duncan Scholefield",
+			"Stephen Ashling",
+			"Stella Hubbart-Edwards",
+			"Peter Isaac",
+			"Ian P. King",
+			"Julie King"
+		],
+		"projectName": "Whole genome sequencing of wheat wild relative Amblyopyrum muticum accession 21300012",
+		"description": "This is the raw sequencing data from whole genome shotgun sequencing of Amybylopyrum muticum accession 21300012. 101.86 Gbp (16.5x coverage) of 250bp paired-end reads were generated on an Illumina HiSeq 2500. This data has been used to develop chromosome-specific KASP markers for the detection of introgressed Am. muticum segments in hexaploid wheat/Am. muticum introgression lines. This project is a BBSRC Designing Future Wheat project led by the Wheat Research Centre at the University of Nottingham, with sequencing and bioinformatic analysis conducted by the Earlham Institute.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Grewal_et_al_2021-09-13_Amybylopyrum_muticum/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Grewal_et_al_2021-09-13_Amybylopyrum_muticum",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "0382d010-041e-4bee-b2d1-da3880238bf7",
+		"authors": [
+			"Benedict Coombes",
+			"John Fellers",
+			"Surbhi Grewal",
+			"Rachel Rusholme-Pilcher",
+			"Stella Hubbart-Edwards",
+			"Cai-yun Yang",
+			"Ryan Joynson",
+			"Ian P. King",
+			"Julie King",
+			"Anthony Hall"
+		],
+		"projectName": "Whole genome sequencing uncovers the structural and transcriptomic landscape of hexaploid wheat/Am. muticum introgression lines",
+		"description": "Synthetically derived introgression lines provide the raw material for the incorporation of alien variation into breeding programmes but a lack of genomic resolution and understanding of genomic impact limits their optimal utilisation. A high-resolution genomic analysis of a set of hexaploid wheat/Am. muticum introgression lines has uncovered new segments, defined introgression boundaries to a high-resolution and identified novel candidate genes for rust resistances. Large-scale structural disruption and analysis of gene expression provides important contributions to untangling the genomic impact of introgression breeding. Our outlined approach will provide an affordable way for breeders to better characterise introgression lines and more effectively deploy wild relative variation. This project is a BBSRC Designing Future Wheat project led by Earlham Institute, with introgression lines produced by the Wheat Research Centre at the University of Nottingham and nanopore sequencing conducted by John Fellers at USDA-ARS Hard Winter Wheat Genetics Research Unit, Manhattan, Kansas, USA.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Hall_2021-10-08_wheatxmuticum/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Hall_2021-10-08_wheatxmuticum",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "d3991584-b05c-4fda-b257-9cd0f168a8a1",
+		"authors": [
+			"Brendan Fahy",
+			"Oscar Gonzalez",
+			"George M. Savva",
+			"Jennifer H. Ahn-Jarvis",
+			"Frederick J. Warren",
+			"Jack Dunn",
+			"Alison Lovegrove",
+			"Brittany A. Hazard"
+		],
+		"projectName": "Starch Synthase IIIa Wheat TILLING",
+		"description": "To discover whether manipulation of Starch Synthase IIIa (SSIIIa) expression can alter starch properties and elevate levels of resistant starch in wheat we have generated a novel set of mutants in the elite bread wheat cultivar Cadenza carrying combinations of null mutations in SSIIIa homoeologues. In this project we describe the development and characterization of the starch and grain properties of the ssIIIa TILLING mutants..",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Hazard_2022_02_09_ssIIIa_TILLING_phenotype_data/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Hazard_2022_02_09_ssIIIa_TILLING_phenotype_data/",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "27ade9ad-4c12-42a4-ac03-88941e65901c",
+		"authors": [
+			"Richard Horsnell",
+			"Fiona Leigh",
+			"Alison Bentley",
+			"Tally Wright"
+		],
+		"projectName": "NIAB CSSL D genome yield trial H2020",
+		"description": "This population of Chromosome Segment Substitution Lines ( CSSL's ) captures genetic variation from a diverse accession of A.tauschii via a synthetic hexaploid wheat. Each line contains a unique introgression of the synthetic D genome in a near isogenic background. This population was generated within work package 2 of Designing Future Wheat and funded by the BBSRC.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Horsnell,Leigh,Bentley,Wright_2020_NIAB_CSSL_D_genome_yield_trial_H2020/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Horsnell,Leigh,Bentley,Wright_2020_NIAB_CSSL_D_genome_yield_trial_H2020",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	},
+	{
+		"uuid": "8fc6f647-5669-40f0-a4db-22b684c56312",
+		"authors": [
+			"Richard Horsnell",
+			"Fiona Leigh",
+			"Tally Wright",
+			"Alison Bentley"
+		],
+		"projectName": "NIAB AB_CSSL glasshouse trial H2020",
+		"description": "This population of Chromosome Segment Substitution Lines ( CSSL's ) captures genetic variation from a Triticum dicoccoides accession Ttd140. Each line contains a unique introgression of tetraploid genome in a near isogenic  background. This population was generated within work package 3 of Designing Future Wheat and funded by the BBSRC.",
+		"license": {
+			"so:name": "toronto",
+			"so:url": "https://www.nature.com/articles/461168a#Sec2"
+		},
+		"project_codes": [],
+		"so:url": "https://opendata.earlham.ac.uk/wheat/under_license/toronto/Horsnell,Leigh,Bentley,Wright_2020_NIAB_CSSL_D_glasshouse_trial_H2020/",
+		"irods_path": "/grassrootsZone/public/under_license/toronto/Horsnell,Leigh,Bentley,Wright_2020_NIAB_CSSL_D_glasshouse_trial_H2020",
+		"@type": "Grassroots:Project",
+		"type_description": "Dataset",
+		"so:image": "https://grassroots.tools/grassroots/images/aiss/drawer"
+	}
+]
