@@ -1,4 +1,5 @@
 import os, sys, argparse, pprint, json
+
 from irods.session import iRODSSession
 from irods.models import Collection, DataObject, DataAccess, User
 from irods.meta import iRODSMeta
@@ -8,30 +9,28 @@ from irods.exception import CollectionDoesNotExist
 
 ######################################
 
-def ParseProject (project, verbosity):
-
-	with iRODSSession(host="localhost", port=1247, user="irods", password="irods", zone="grassrootsZone") as session:    
+def ParseProject (project, irods_session, verbosity, selected_project_uuids):
 
 		irods_path = project ["irods_path"]		
 
 		if (irods_path != None):	
 			if (verbosity > 0):
-				print ("Parsing project at ", irods_path)
+				print ("Parsing project at", irods_path)
 
 			irods_obj = None
 
 			try:
-				irods_obj = session.collections.get (irods_path)    
+				irods_obj = irods_session.collections.get (irods_path)    
 			except CollectionDoesNotExist:
-				print ("irods_path: ", irods_path, " does not exist")
-			except:
-				print (">>>>> irods_path: ", irods_path, " general error")
+				print ("irods_path:", irods_path, " does not exist")
+#			except:
+#				print (">>>>> irods_path:", irods_path, " general error")
 		
 			if (irods_obj):
 				AddMetadataForProject (irods_obj, project, verbosity)
 				AddMetadataForAllChildren (irods_obj, project ["uuid"], verbosity)
 		else:
-			print ("irods_path not set for ", project)
+			print ("irods_path not set for", project)
 
 
 #####################################
@@ -53,7 +52,7 @@ def AddMetadataKeyAndValue (irods_obj, key, value, verbosity):
 	coll = 1
 
 	if (verbosity > 1):
-		print ("key: ", key, "\n value: ")
+		print ("key:", key, "\nvalue:")
 		pprint.pprint (value)
 		print ("\n")
 	
@@ -89,28 +88,89 @@ def AddMetadataForAllChildren (irods_obj, project_uuid, verbosity):
 ###################################
 
 
-projects_filename = "projectinfo.json"
-
-verbosity = 1;
-
-if len(sys.argv) > 1:
-	projects_filename = sys.argv [1]
-
-print ("loading ", projects_filename)
-
-projects_file = open (projects_filename)
-
-# Get the contents as a dictionary
-projects = json.load (projects_file);
-
-i = 0
+def GetCommandLineArgs (parser):
 
 
-for project in projects:
+	parser.add_argument ("-i", "--input_file", help = "The input Projects JSON file to load")
+	parser.add_argument ("-H", "--host", default = "localhost", help = "The iRODS server hostname")
+	parser.add_argument ("-P", "--port", default = 1247, type = int, help = "The port that the iRODS server is running on")
+	parser.add_argument ("-u", "--user", help = "The username to use to log in to the iRODS server")
+	parser.add_argument ("-p", "--password", help = "The password to use to log in to the iRODS server")
+	parser.add_argument ("-z", "--zone", help = "The iRODS zone to connect to")
+	parser.add_argument ("--uuids", nargs="*", help = "The Project UUIDS to parse")
+	parser.add_argument ("-v", "--verbose", help = "Display progress messages", action = "store_true")
+
+	args = parser.parse_args ()
+
+	return args
+
+
+########################################
+
+
+def IsSelectedProject (project, project_uuids, verbose):
+	res = True
+
+	uuid = project ["uuid"]
+
+	if (uuid != None):
+		if (project_uuids != None):
+			if (uuid not in project_uuids):
+				res = False
+
+	else:
+		res = False;
+
+	return res
+
+
+#######################################
+
+
+
+
+parser = argparse.ArgumentParser ()
+
+args = GetCommandLineArgs (parser)
+
+print (args)
+
+if (args.input_file != None):
+	projects_file = None	
+
 	
-	if (verbosity > 1):
-		print ("Working on Project ", i)
-	
-	ParseProject (project, verbosity)
-	i = i + 1
- 
+
+	if (args.verbose):
+		print ("loading", args.input_file)
+
+	try:
+		projects_file = open (args.input_file)
+	except FileNotFoundError:
+		print ("File does not exist:", args.input_file)	
+	except:
+		print ("General error loading:", args.input_file)	
+
+	if (projects_file != None):
+		# Get the contents as a dictionary
+		projects = json.load (projects_file);
+
+		i = 0
+
+
+	if (args.verbose):
+		print ("Opening session to", args.host, "on port", args.port, "as user", args.user, "on zone", args.zone)
+
+		irods_session = iRODSSession (host = args.host, port = args.port, user = args.user, password = args.password, zone = args.zone) 
+
+		for project in projects:
+						
+			if (IsSelectedProject (project, args.uuids, args.verbose)):
+				if (args.verbose):
+					print ("Working on Project", i)
+
+				ParseProject (project, irods_session, args.verbose, args.uuids)
+
+			i = i + 1
+
+else:
+	parser.print_help ()
