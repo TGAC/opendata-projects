@@ -11,39 +11,54 @@ from irods.exception import CollectionDoesNotExist
 
 def ParseProject (project, irods_session, verbosity, selected_project_uuids):
 
-		irods_path = project ["irods_path"]		
+	irods_path = project ["irods_path"]		
 
-		if (irods_path != None):	
-			if (verbosity > 0):
-				print ("Parsing project at", irods_path)
+	if (irods_path != None):	
+		if (verbosity > 0):
+			print ("Parsing project at", irods_path)
 
-			irods_obj = None
+		irods_obj = None
 
-			try:
-				irods_obj = irods_session.collections.get (irods_path)    
-			except CollectionDoesNotExist:
-				print ("irods_path:", irods_path, " does not exist")
+		try:
+			irods_obj = irods_session.collections.get (irods_path)    
+		except CollectionDoesNotExist:
+			print ("irods_path:", irods_path, " does not exist")
 #			except:
 #				print (">>>>> irods_path:", irods_path, " general error")
-		
-			if (irods_obj):
-				AddMetadataForProject (irods_obj, project, verbosity)
-				AddMetadataForAllChildren (irods_obj, project ["uuid"], verbosity)
-		else:
-			print ("irods_path not set for", project)
+	
+		if (irods_obj):
+			AddMetadataForProject (irods_obj, project, verbosity)
+			AddMetadataForAllChildren (irods_obj, project ["uuid"], verbosity)
+	else:
+		print ("irods_path not set for", project)
 
 
 #####################################
 
 def AddMetadataForProject (irods_obj, project, verbosity):
-		AddMetadataKeyAndValue (irods_obj, "license", "Toronto", verbosity)
-		AddMetadataKeyAndValue (irods_obj, "license_url", "https://www.nature.com/articles/461168a#Sec2", verbosity)
-		AddMetadataKeyAndValue (irods_obj, "uuid", project ["uuid"], verbosity)
+	
+	if (project ["uuid"]):
 
-		authors = ", ".join(project ["authors"])
-		AddMetadataKeyAndValue (irods_obj, "authors", authors, verbosity)
-		AddMetadataKeyAndValue (irods_obj, "projectName", project ["projectName"], verbosity)
-		AddMetadataKeyAndValue (irods_obj, "description", project ["description"], verbosity)
+		if (project ["projectName"]):
+			AddMetadataKeyAndValue (irods_obj, "license", "Toronto", verbosity)
+			AddMetadataKeyAndValue (irods_obj, "license_url", "https://www.nature.com/articles/461168a#Sec2", verbosity)
+			AddMetadataKeyAndValue (irods_obj, "uuid", project ["uuid"], verbosity)
+
+			if (project ["authors"])
+				authors = ", ".join(project ["authors"])
+				AddMetadataKeyAndValue (irods_obj, "authors", authors, verbosity)
+
+			AddMetadataKeyAndValue (irods_obj, "projectName", project ["projectName"], verbosity)
+
+			if (project ["description"])
+				AddMetadataKeyAndValue (irods_obj, "description", project ["description"], verbosity)
+
+		else:
+
+	else:
+
+
+
 
 #####################################
     
