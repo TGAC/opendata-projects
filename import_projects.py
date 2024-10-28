@@ -22,7 +22,7 @@ def ParseProject (project, irods_session, verbosity, selected_project_uuids):
 		try:
 			irods_obj = irods_session.collections.get (irods_path)    
 		except CollectionDoesNotExist:
-			print ("irods_path:", irods_path, " does not exist")
+			print ("ERROR: irods_path:", irods_path, " does not exist")
 #			except:
 #				print (">>>>> irods_path:", irods_path, " general error")
 	
@@ -30,7 +30,7 @@ def ParseProject (project, irods_session, verbosity, selected_project_uuids):
 			AddMetadataForProject (irods_obj, project, verbosity)
 			AddMetadataForAllChildren (irods_obj, project ["uuid"], verbosity)
 	else:
-		print ("irods_path not set for", project)
+		print ("ERROR: irods_path not set for", project)
 
 
 #####################################
@@ -54,8 +54,9 @@ def AddMetadataForProject (irods_obj, project, verbosity):
 				AddMetadataKeyAndValue (irods_obj, "description", project ["description"], verbosity)
 
 		else:
-
+			print ("ERROR: No projectName", project);
 	else:
+			print ("ERROR: No uuid", project);
 
 
 
@@ -159,9 +160,9 @@ if (args.input_file != None):
 	try:
 		projects_file = open (args.input_file)
 	except FileNotFoundError:
-		print ("File does not exist:", args.input_file)	
+		print ("ERROR: File does not exist:", args.input_file)	
 	except:
-		print ("General error loading:", args.input_file)	
+		print ("ERROR: General error loading:", args.input_file)	
 
 	if (projects_file != None):
 		# Get the contents as a dictionary
