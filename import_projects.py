@@ -44,13 +44,13 @@ def AddMetadataForProject (irods_obj, project, verbosity):
 			AddMetadataKeyAndValue (irods_obj, "license_url", "https://www.nature.com/articles/461168a#Sec2", verbosity)
 			AddMetadataKeyAndValue (irods_obj, "uuid", project ["uuid"], verbosity)
 
-			if (project ["authors"])
+			if (project ["authors"]):
 				authors = ", ".join(project ["authors"])
 				AddMetadataKeyAndValue (irods_obj, "authors", authors, verbosity)
 
 			AddMetadataKeyAndValue (irods_obj, "projectName", project ["projectName"], verbosity)
 
-			if (project ["description"])
+			if (project ["description"]):
 				AddMetadataKeyAndValue (irods_obj, "description", project ["description"], verbosity)
 
 		else:
