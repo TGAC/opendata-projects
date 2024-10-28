@@ -133,8 +133,6 @@ parser = argparse.ArgumentParser ()
 
 args = GetCommandLineArgs (parser)
 
-print (args)
-
 if (args.input_file != None):
 	projects_file = None	
 
